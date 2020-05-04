@@ -9,6 +9,7 @@
   <meta name="author" content="John D Adams" />
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/banner.css">
+<<<<<<< HEAD
   <style>
     .example {
       width: 250px;
@@ -17,8 +18,36 @@
     }
   </style>
 </head>
+=======
+ <style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 
+.grid-container {
+  display: grid;
+  grid:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+>>>>>>> e5818b3295b8a21f29c7e4ad9b91ca18299ece5f
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
 <body>
+<<<<<<< HEAD
 	<svg viewBox="0 0 250 250" class="example"> 
     <circle r="125" cx="125" cy="125" fill="yellow" />
     <rect x="0" y="0" height="125" width="125" />
@@ -26,5 +55,22 @@
     <polygon fill="pink" points="50,50 125,125 200,50 200,200 125,125 50,200" />
   </svg>
 <!--  <script src="js/scripts.js"></script> -->
+=======
+
+<h1>A Webpage Template</h1>
+
+<p>You can use the <em>grid-areas</em> property to name grid items.</p>
+<p>You can refer to the name when you set up the grid layout, by using the <em>grid</em> property on the grid container.</p>
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
+</div>
+
+>>>>>>> e5818b3295b8a21f29c7e4ad9b91ca18299ece5f
 </body>
 </html>
