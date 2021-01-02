@@ -1,0 +1,16 @@
+""""""""""""""""""""""""""""
+
+" set nocompatible
+" syntax on
+" set number
+" set ruler
+" set encoding=utf-8
+" set wrap
+" set textwidth=79
+" set formatoptions=tcqrnl
+" set tabstop=2
+" set shiftwidth=2
+" set softtabstop=2
+" set expandtab
+" set noshiftround
+" set viminfo+=n~/.vim/viminfo
