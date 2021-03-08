@@ -1,2 +1,6 @@
 .kateproject
 *.*~
+.vim/vimrc~
+.vim/bundle/
+.vim/autoload/
+
