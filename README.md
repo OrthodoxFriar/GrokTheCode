@@ -14,7 +14,9 @@
 
 The now settled debate between HTML and XHTML shows the truth of these 2 rules. XHTML is vastly more powerful through it's ability to be extended but because you must follow the rules, it actually consumes fewer resources. Open a browser with half a dozen tabs and then look at the system resources being used, Windows XP would run on the resources consumed by a modern browser, compare that to an XML processor.
 
-Now find a few random sites that look nice and run them through a validator. Usually any given site will have 2 or 3 dozen errors and there is a 50-50 chance that it was software generated and contains nothing but javascript pulling in resources. Loose rules promote sloppy code. 
+Now find a few random sites that look nice and run them through a validator. Usually any given site will have 2 or 3 dozen errors and there is a 50-50 chance that it was software generated and contains nothing but javascript pulling in resources. Loose rules promote sloppy code.
+
+I might sound biased but I do *get* the other side. HTML was destined to win and js will always be more popular than haskell as long as it is easier to learn.
 
 ## Pandoc Markdown
 
