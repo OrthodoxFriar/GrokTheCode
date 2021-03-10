@@ -5,9 +5,20 @@
 **Grok**  
 *To understand profoundly through intuition or empathy.*
 
+## Precision Matters
+
+### 2 Universal Rules
+
+1. The power of any language is derived directly from it's rules.
+2. Given 2 choices of programming language, humans will always choose the less constrained and easier to learn.
+
+The now settled debate between HTML and XHTML shows the truth of these 2 rules. XHTML is vastly more powerful through it's ability to be extended but because you must follow the rules, it actually consumes fewer resources. Open a browser with half a dozen tabs and then look at the system resources being used, Windows XP would run on the resources consumed by a modern browser, compare that to an XML processor.
+
+Now find a few random sites that look nice and run them through a validator. Usually any given site will have 2 or 3 dozen errors and there is a 50-50 chance that it was software generated and contains nothing but javascript pulling in resources. Loose rules promote sloppy code. 
+
 ## Pandoc Markdown
 
-Well written 'Pandoc Markdown' will convert to predictable error free HTML every time. Since the conversion is so predictable the styles can be applied with precision and there are a hundred other formats that the markdown file can be converted to.
+Well written 'Pandoc Markdown' will convert to predictable error free HTML every time. Since the conversion is so predictable the styles can be applied with precision and there are 3 dozen other formats that the markdown file can be converted to including 'Literate Haskell'.
 
 ## Emacs and Vim
 
