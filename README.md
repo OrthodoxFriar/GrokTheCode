@@ -18,6 +18,12 @@ Now find a few random sites that look nice and run them through a validator. Usu
 
 I might sound biased but I do *get* the other side. HTML was destined to win and js will always be more popular than haskell as long as it is easier to learn.
 
+## Literate Programming
+
+So called 'Modern Methodologies' in programming put the emphasis on producing code leaving documentation secondary (which means it never happens). I don't use software that comes without documentation for a couple of reasons. First, it's like being in a pitch dark room searching for a doorhandle and second, there are features perhaps important features that you will never discover. Whenever I look at a new piece of software I look for the docs first and if there is no documentation I don't waste my time.
+
+Literate programming lives on a scale between **well documented code** and a **programming book** with code in it. As with anything else different projects will call for more or less documentation. A little bit of effort in the beginning will make self documenting code easy.
+
 ## Pandoc Markdown
 
 Well written 'Pandoc Markdown' will convert to predictable error free HTML every time. Since the conversion is so predictable the styles can be applied with precision and there are 3 dozen other formats that the markdown file can be converted to including 'Literate Haskell'.
